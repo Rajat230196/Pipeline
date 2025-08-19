@@ -3,13 +3,10 @@
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
 
-trigger:none
-
+trigger: none
 pool: My pool
-  
 
 steps:
-
 - task: TerraformInstaller@1
   inputs:
     terraformVersion: 'latest'
