@@ -15,7 +15,7 @@ steps:
   inputs:
     provider: 'azurerm'
     command: 'init'
-    workingDirectory: '$(System.DefaultWorkingDirectory)/azure-pipelines.yml'
+    workingDirectory: '$(System.DefaultWorkingDirectory)/ABC'
     backendServiceArm: 'Service connection1'
     backendAzureRmStorageAccountName: 'backendstorage23'
     backendAzureRmContainerName: 'state'
